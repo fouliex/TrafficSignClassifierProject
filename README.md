@@ -36,7 +36,7 @@ training and test set. However as one can see the data is not uniformly distribu
 in the training set and some sign labels has more than 1250 samples.  The Traffic sign model trained in this this project
 is good at identifying some signs better then others.
 
-[DataSetPraph](./misc/DatasetGraph.png)
+![DataSetGraph](./misc/DatasetGraph.png)
 
 
 
