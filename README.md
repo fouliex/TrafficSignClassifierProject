@@ -104,6 +104,16 @@ Here are  the five German traffic signs that were chosen from the web:
 ![alt text][image1] ![alt text][image2] ![alt text][image3] 
 ![alt text][image4] ![alt text][image5]
 
+### Model Prediction
+
+| Image			        |     Label	 | Description           | Prediction Label	 | Prediction Description|
+|:---------------------:|:----------:|:---------------------:|:-----------------:|:---------------------:|  
+| ![alt text][image1]   | 14         | Stop                  | 14                | Stop                  |
+| ![alt text][image2]   | 17 		 | No entry 	         | 17                | No entry 	         |
+| ![alt text][image3]	| 0			 | 0 Speed limit(20km/h) | 0                 | 0 Speed limit(20km/h) |
+| ![alt text][image4]   | 40   		 | Roundabout mandatory  | 40                | Roundabout mandatory  |
+| ![alt text][image5]	| 28		 | Children crossing     | 28                | Children crossing     |
+
 
 ### Dependencies
 This lab requires:
