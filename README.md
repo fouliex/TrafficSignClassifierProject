@@ -91,7 +91,7 @@ The final model results were:
 * The validation set accuracy is 96% 
 
 # Test the Model on New Images
-Here are  the five German traffic signs that I were chosen from the web:
+Here are  the five German traffic signs that were chosen from the web:
 
 [//]: # (Image References)
 [image1]: TestImages/traffic_sign_1.jpg
@@ -101,8 +101,8 @@ Here are  the five German traffic signs that I were chosen from the web:
 [image5]: TestImages/traffic_sign_5.jpg  
 
 
-![alt text][image4] ![alt text][image5] ![alt text][image6] 
-![alt text][image7] ![alt text][image8]
+![alt text][image1] ![alt text][image2] ![alt text][image3] 
+![alt text][image4] ![alt text][image5]
 
 
 ### Dependencies
