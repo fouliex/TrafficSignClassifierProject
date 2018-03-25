@@ -87,7 +87,7 @@ The model hyperparameters are:
 
 #### Epoch
 To tell the network how long we want it to train, we set an epoch number.An epoch is one trip through the entire 
-training dataset. For this project, the training epochs} is set to 30.
+training dataset. For this project, the training epochs} is set to 10.
 
 #### Batch size
 The Batch size is the number of training data in one forward/backward pass. It is the number of sample that is propagated
