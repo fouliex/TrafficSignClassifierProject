@@ -85,6 +85,21 @@ The model hyperparameters are:
 * The learning rate is 0.001
 * The Optimizer is the Adam Optimizer
 
+#### Epoch
+To tell the network how long we want it to train, we set an epoch number.An epoch is one trip through the entire 
+training dataset. For this project, the training epochs} is set to 30.
+
+#### Batch size
+The Batch size is the number of training data in one forward/backward pass. It is the number of sample that is propagated
+through the network. For this project the batch size is set to 128.The networks trains faster and update the weights after each mini-batches.
+#### Learning rate
+The learning rate has to do with how quickly the network abandons old beliefs for new ones.With a higher 
+Learning Rate, the network  will changes its mind more quickly which is why a low learning rate of 0.001 is chosen for this model.
+
+#### Adam Optimizer
+Adam is an optimization algorithm that is use to update the weights iteratively based of the training data.
+
+####
 ## Result
 The final model results were:
 * The Test set accuracy  is 94%
@@ -117,6 +132,9 @@ Here are  the five German traffic signs that were chosen from the web:
 | ![alt text][image5]	| 28		 | Children crossing     | 28                | Children crossing     |
 
 ### Softmax probabilities for each prediction
+For images 1, 2 4 and 5 the top prediction has a softmax probability of 1.000 and the rest of the probabilities lower than 0.000.
+For image 3 the top prediction result has a softmax probability of 0.844, 0.049 , 0.027 0.021 and 0.01. 
+The top softmax is display in the  Jupyter Notebook.
 
 ## Dependencies
 This lab requires:
@@ -134,10 +152,3 @@ git clone https://github.com/udacity/CarND-Traffic-Sign-Classifier-Project
 cd CarND-Traffic-Sign-Classifier-Project
 jupyter notebook Traffic_Sign_Classifier.ipynb
 ```
-
-### Requirements for Submission
-Follow the instructions in the `Traffic_Sign_Classifier.ipynb` notebook and write the project report using the writeup template as a guide, `writeup_template.md`. Submit the project code and writeup document.
-
-## How to write a README
-A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777).
-
