@@ -38,6 +38,46 @@ is good at identifying some signs better then others.
 
 ![DataSetGraph](./misc/DatasetGraph.png)
 
+## Design and Test the  Model Architecture
+
+### Preprocessed the image data
+A normalize() function is used to normalize image data between -1 and 1. No further pre-processing technique were done
+on the data set.
+```python
+def normalize(data):
+    normalize_data = ((data-128.0)/128.0) -1
+    return normalize_data
+
+X_train = normalize(X_train)
+X_test = normalize(X_test)
+X_valid = normalize(X_valid)
+
+```
+### Model Architecture
+
+The final model consisted of the following layers:
+
+| Layer         		|     Description	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| Input         		| 32x32x3 RGB image   							| 
+| Convolution 5x5     	| 1x1 stride, same padding, outputs 28x28x30 	|
+| RELU					|												|
+| Max pooling	      	| 2x2 stride,  outputs 14x14x30 				|
+| Convolution 5x5	    | 1x1 stride, same padding,output 10x10x64      |
+| RELU					|												|
+| Max pooling	      	| 2x2 stride,outputs 5x5x64 				    |
+| Flatten				| input 5x5x64,output 1600(5*5*64)				|
+| Fully Connected		| input 1600, output 1024                       | 
+| RELU					|												|
+| Drop out				| Probability Keep is 50%                       |
+| Fully Connected       | input 1024,output 512                         |
+| RELU					|												|
+| Drop out				| Probability Keep is 50%                       |
+| Fully Connected       | input 512,output 256                          |
+| RELU					|												|
+| Drop out				| Probability Keep is 50%                       |
+| Fully Connected       | input 256,output number of classes 43         |
+
 
 
 ### Dependencies
