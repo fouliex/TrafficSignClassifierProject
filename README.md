@@ -80,12 +80,29 @@ The final model consisted of the following layers:
 
 ### Model Hyperparameters
 The model hyperparameters are:
-* Epoch = 10
-* The size of the validation set is 4410
-* The size of test set is  1263
-* The shape of a traffic sign image is (32,32,3)
-* The number of unique classes/labels in the data set is 43
+*  The Epoch is 10
+* The Batch size is 128
+* The learning rate is 0.001
+* The Optimizer is the Adam Optimizer
 
+### Result
+The final model results were:
+* The Test set accuracy  is 94%
+* The validation set accuracy is 96% 
+
+# Test the Model on New Images
+Here are  the five German traffic signs that I were chosen from the web:
+
+[//]: # (Image References)
+[image1]: TestImages/traffic_sign_1.jpg
+[image2]: TestImages/traffic_sign_1.jpg 
+[image3]: TestImages/traffic_sign_1.jpg 
+[image4]: TestImages/traffic_sign_1.jpg 
+[image5]: TestImages/traffic_sign_1.jpg  
+
+
+![alt text][image4] ![alt text][image5] ![alt text][image6] 
+![alt text][image7] ![alt text][image8]
 
 
 ### Dependencies
