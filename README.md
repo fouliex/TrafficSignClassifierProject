@@ -54,7 +54,7 @@ X_valid = normalize(X_valid)
 
 ```
 ### Model Architecture
-
+The Neural Network Architecture is based on the [LeNet-5](http://yann.lecun.com/exdb/lenet/) architecture.
 The final model consisted of the following layers:
 
 | Layer         		|     Description	        					| 
@@ -77,6 +77,14 @@ The final model consisted of the following layers:
 | RELU					|												|
 | Drop out				| Probability Keep is 50%                       |
 | Fully Connected       | input 256,output number of classes 43         |
+
+### Model Hyperparameters
+The model hyperparameters are:
+* Epoch = 10
+* The size of the validation set is 4410
+* The size of test set is  1263
+* The shape of a traffic sign image is (32,32,3)
+* The number of unique classes/labels in the data set is 43
 
 
 
