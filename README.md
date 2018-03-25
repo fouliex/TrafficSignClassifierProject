@@ -95,10 +95,10 @@ Here are  the five German traffic signs that I were chosen from the web:
 
 [//]: # (Image References)
 [image1]: TestImages/traffic_sign_1.jpg
-[image2]: TestImages/traffic_sign_1.jpg 
-[image3]: TestImages/traffic_sign_1.jpg 
-[image4]: TestImages/traffic_sign_1.jpg 
-[image5]: TestImages/traffic_sign_1.jpg  
+[image2]: TestImages/traffic_sign_2.jpg 
+[image3]: TestImages/traffic_sign_3.jpg 
+[image4]: TestImages/traffic_sign_4.jpg 
+[image5]: TestImages/traffic_sign_5.jpg  
 
 
 ![alt text][image4] ![alt text][image5] ![alt text][image6] 
