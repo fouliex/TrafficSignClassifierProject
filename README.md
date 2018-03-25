@@ -85,12 +85,12 @@ The model hyperparameters are:
 * The learning rate is 0.001
 * The Optimizer is the Adam Optimizer
 
-### Result
+## Result
 The final model results were:
 * The Test set accuracy  is 94%
 * The validation set accuracy is 96% 
 
-# Test the Model on New Images
+### Test the Model on New Images
 Here are  the five German traffic signs that were chosen from the web:
 
 [//]: # (Image References)
@@ -105,6 +105,8 @@ Here are  the five German traffic signs that were chosen from the web:
 ![alt text][image4] ![alt text][image5]
 
 ### Model Prediction
+ If the model predicted 1 out of 5 signs correctly,it would be 20% accurate on these new images.However, the model was able to predict all 5 images
+ with an accuracy of 100%.
 
 | Image			        |     Label	 | Description           | Prediction Label	 | Prediction Description|
 |:---------------------:|:----------:|:---------------------:|:-----------------:|:---------------------:|  
@@ -114,8 +116,9 @@ Here are  the five German traffic signs that were chosen from the web:
 | ![alt text][image4]   | 40   		 | Roundabout mandatory  | 40                | Roundabout mandatory  |
 | ![alt text][image5]	| 28		 | Children crossing     | 28                | Children crossing     |
 
+### Softmax probabilities for each prediction
 
-### Dependencies
+## Dependencies
 This lab requires:
 
 * [CarND Term1 Starter Kit](https://github.com/udacity/CarND-Term1-Starter-Kit)
